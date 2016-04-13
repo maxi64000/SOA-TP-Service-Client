@@ -1,0 +1,5 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+RewriteRule account/([0-9]*)$ Controller/AccountController.php/?id=$1
+RewriteRule account Controller/AccountController.php
